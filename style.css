@@ -1,0 +1,111 @@
+*{
+    margin:0 ;
+    padding: 0 ;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+li {
+      
+     list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-list{
+    width: 1000px;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 60%;
+    background-color:rgb(46, 45, 45);
+    text-align: right;
+    position: fixed;
+    top: 0px;
+}
+.nav-list  li{
+    float: left;
+}
+
+.nav-list li a{
+    
+    
+    margin-right: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: fuchsia;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+.home{
+    background-image: url("img.jpg");
+    height: 600px;
+    background-size:cover;
+    margin-top: 90px;
+    padding-top: 90px;
+    text-align: center;
+}
+.home image{
+    opacity:0.8;
+}
+.home h1{
+    font-size: 60px;
+    
+}
+.home h3{
+    font-size: 30px;
+    margin-top:20px;
+}
+.about-me{
+    background-color:rgb(252, 138, 63);
+    padding-top:40px;
+    height: 600px;
+}
+.about-me h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(24, 26, 170);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration-line: underline ;
+}
+.about-me p{
+    font-size: 25px;
+    margin-left:20px;
+    margin-bottom: 20px;
+    line-height: 30px;
+
+}
+.about-me li{
+    font-size: 25px;
+    margin-left:40px;
+    list-style-type: initial;
+
+}
+
+.about-me span{
+    
+    font-family:cursive;
+}
+
+.contact-info{
+    background-color:rgb(15, 15, 15);
+    height:250px;
+    color:white ;
+    text-align:center;
+}
+.contact-info img{
+    height: 40px;
+    width:40px;
+    margin-top: 100px;
+    margin-right: 120px;
+}
+.insta{
+    margin-left: 140px;
+}
+.contact-info h3{
+    font-size:30px;
+    text-decoration-line: underline ;
+}
